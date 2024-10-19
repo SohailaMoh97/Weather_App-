@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #1e202b;
+    color: #bfc1c8;
+}
+.navbar {
+    background-color: #1e202b;
+}
+h1 {
+
+    font-size: 1.1428571429em;
+}
+
+.navbar small {
+    color: #bfc1c8;
+    font-size: 0.7142857143em;
+}
+.nav-link {
+    color: white;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #009ad8;
+    border-color: #009ad8;
+}
+
+.nav-link {
+    transition: all 0.5s;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: #009ad8;
+    border-color: #009ad8;
+}
+
+
+.header {
+    background: url(../images/banner.png),  #1e202b;
+    height: 70vh;
+    background-repeat: no-repeat;
+
+}
+
+.header input  {
+    background-color: #1e202b;
+    border: 0;
+}
+.header input::placeholder {
+    color: rgb(117, 117, 117);
+
+}
+
+.form-control:focus {
+    background-color: #1e202b;
+    box-shadow: 0 0 0 .25rem transparent;
+
+}
+
+.search .btn {
+    padding-inline: 40px;
+    top: 0;
+    right: 20px;
+    top: 55px;
+    width: 10%;
+}
+
+
+
+.footer {
+    background-color: #262936;
+}
+
+.card {
+    background-color: #262936;
+    min-height: 345.797px;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    color: rgb(191, 193, 200);
+    background-color: #323544;
+}
+
+.card-body h2 {
+    font-size: 4.5rem;
+}
+
+.card-body .custom {
+    color: #009ad8;
+}
+
+.sec_card {
+    background-color: rgb(38, 41, 54);
+}
+
+.subscribe_input input {
+    background-color: #1e202b;
+    border: 0;
+}
+
+.subscribe_input input::placeholder {
+    color: rgb(117, 117, 117);
+}
+
+.subscribe_input .btn {
+    right: 10px;
+    top: 8px;
+}
+
+
+
+
+.footer p {
+    color: rgb(191, 193, 200);
+}
+
+.footer li {
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.footer li:hover  {
+    background-color: #009ad8;   
+}
+.footer li:hover i {
+    color: white;
+}
+.footer i {
+    color: rgb(0, 154, 216);
+}
+
+
+@media screen and (max-width: 767px) {
+    .card {
+        height: 100%;
+    }
+
+    .header {
+        height: auto;
+    }
+}
